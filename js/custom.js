@@ -66,3 +66,55 @@
     });  
 
 })(jQuery);
+
+
+
+// Instafeed
+// $(document).ready(function() {
+
+// for later: guiltea cravings instagram user id: 2985480272
+// need access token for guiltea, go through instagram.pixelunion.net
+  // var userFeed = new Instafeed({
+  //     get: 'user',
+  //     userId: 13944718,
+  //     limit: 6,
+  //     resolution: 'standard_resolution',
+  //     accessToken: '13944718.1677ed0.903dedce1f964b48909327e0ba154bab',
+  //     sortBy: 'most-recent',
+  //     template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+  //     target: 'Instafeed',
+
+      
+  //  });
+
+
+  // userFeed.run();
+
+var userFeed = new Instafeed({
+  get: 'user',
+  userId: 13944718,
+  accessToken: '13944718.1677ed0.903dedce1f964b48909327e0ba154bab',
+  resolution: 'standard_resolution',
+  useHttp: 'true',
+  limit: 4,
+  sortBy: 'most-recent',
+  template: 
+  
+  '<div class="col-md-3 instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-responsive"/></a></div>',
+  
+    // '<div class="col-xs-12 col-sm-6 col-md-4"><a href="{{image}}"><div class="img-featured-container"><div class="img-backdrop"></div><div class="description-container"><p class="caption">{{caption}}</p><span class="likes"><i class="icon ion-heart"></i> {{likes}}</span><span class="comments"><i class="icon ion-chatbubble"></i> {{comments}}</span></div><img src="{{image}}" class="img-responsive"></div></a></div>',
+  target: 'Instafeed',
+  after: function() {
+    // disable button if no more results to load
+    if (!this.hasNext()) {
+      btnInstafeedLoad.setAttribute("disabled", "disabled");
+    }
+  }
+});
+userFeed.run();
+
+var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
+btnInstafeedLoad.addEventListener("click", function() {
+  userFeed.next();
+});
+
