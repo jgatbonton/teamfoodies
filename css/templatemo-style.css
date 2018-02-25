@@ -202,15 +202,14 @@ http://www.templatemo.com/tm-509-hydro
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
-
-  /* .custom-navbar {
+  .custom-navbar {
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
   }
 
   .custom-navbar .navbar-brand {
-    color: #ffffff;
+    color: black;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
@@ -232,15 +231,15 @@ http://www.templatemo.com/tm-509-hydro
   .custom-navbar .section-btn {
     padding: 15px;
     margin-left: 2em;
-  } */
+  }
 
-  /*.custom-navbar .section-btn:hover {
+  .custom-navbar .section-btn:hover {
     background: #000000;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to right, #434343, #000000); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
-   /*}
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+   }
 
-  /* .custom-navbar .section-btn a {
+  .custom-navbar .section-btn a {
     padding: 0;
   }
 
@@ -251,7 +250,7 @@ http://www.templatemo.com/tm-509-hydro
   .custom-navbar .nav li a {
     font-size: 14px;
     font-weight: 500;
-    color: #ffffff;
+    color: black;
     letter-spacing: -0.5px;
     padding-right: 22px;
     padding-left: 22px;
@@ -305,13 +304,13 @@ http://www.templatemo.com/tm-509-hydro
     }
 
     .top-nav-collapse .nav li a {
-      color: #575757;
+      color: black;
     }
 
     .top-nav-collapse .nav .section-btn a {
       color: #ffffff;
     }
-  } */
+  }
 
 
 
@@ -344,6 +343,9 @@ http://www.templatemo.com/tm-509-hydro
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+/* #myCarousel {
+  padding-top: 2.5em;
+} */
 /* Carousel base class */
 .carousel {
   height: 500px;
