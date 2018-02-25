@@ -69,27 +69,7 @@
 
 
 
-// Instafeed
-// $(document).ready(function() {
-
-// for later: guiltea cravings instagram user id: 2985480272
-// need access token for guiltea, go through instagram.pixelunion.net
-  // var userFeed = new Instafeed({
-  //     get: 'user',
-  //     userId: 13944718,
-  //     limit: 6,
-  //     resolution: 'standard_resolution',
-  //     accessToken: '13944718.1677ed0.903dedce1f964b48909327e0ba154bab',
-  //     sortBy: 'most-recent',
-  //     template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-  //     target: 'Instafeed',
-
-      
-  //  });
-
-
-  // userFeed.run();
-
+// INSTAFEED
 var userFeed = new Instafeed({
   get: 'user',
   userId: 13944718,
