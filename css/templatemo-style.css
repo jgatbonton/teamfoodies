@@ -492,7 +492,11 @@ http://www.templatemo.com/tm-509-hydro
     opacity: 1;
   }
 
-  .instaimg img {margin-bottom:30px;}
+  .instaimg img {
+    margin-bottom:30px;
+    height: 14em;
+    width: 25em;
+  }
   .instaimg img:hover {
     opacity:0.8;
     -moz-opacity:0.8;
