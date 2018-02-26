@@ -9,6 +9,7 @@
     
 
     // MENU
+    // NOT SURE IF WE'LL WANT TO USE THIS
     $('.navbar-collapse a').on('click',function(){
       $(".navbar-collapse").collapse('hide');
     });
@@ -70,6 +71,7 @@
 
 
 // INSTAFEED
+// will need userId and accessToken
 var userFeed = new Instafeed({
   get: 'user',
   userId: 13944718,
@@ -79,7 +81,6 @@ var userFeed = new Instafeed({
   limit: 4,
   sortBy: 'most-recent',
   template: 
-  // FIX THIS!!!!
   '<div class="col-md-3 col-sm-3 instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-responsive center-block"/></a></div>',
   
   target: 'Instafeed',
