@@ -202,6 +202,9 @@ http://www.templatemo.com/tm-509-hydro
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
+  /* .navbar {
+    background: #474747;
+  } */
   .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -209,7 +212,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .custom-navbar .navbar-brand {
-    color: black;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
@@ -217,6 +220,7 @@ http://www.templatemo.com/tm-509-hydro
 
   .top-nav-collapse {
     background: #ffffff;
+    /* background: #474747; */
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
@@ -349,7 +353,7 @@ http://www.templatemo.com/tm-509-hydro
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 1em;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -422,9 +426,11 @@ http://www.templatemo.com/tm-509-hydro
 
 
   /*---------------------------------------
-      WORK             
+      INSTAGRAM FEED            
   -----------------------------------------*/
-
+  /* #work {
+    background: #F0F0F0;
+  } */
   .work-info img {
     width: 100%;
     border-radius: 100%;
@@ -493,15 +499,16 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .instaimg img {
-    margin-bottom:30px;
-    height: 14em;
-    width: 25em;
+    margin-bottom:2em;
+    height: 15em;
+    width: 17em;
   }
   .instaimg img:hover {
     opacity:0.8;
     -moz-opacity:0.8;
     -webkit-opacity:0.8;
   }
+
   #btn-instafeed-load {
     color: #fff;
     background: #ec7171;
@@ -514,7 +521,7 @@ http://www.templatemo.com/tm-509-hydro
 
 
   /*---------------------------------------
-      BLOG             
+      BLOG            
   -----------------------------------------*/
 
   #blog {
@@ -540,7 +547,7 @@ http://www.templatemo.com/tm-509-hydro
     height: 65vh;
     color: #ffffff;
     position: relative;
-    padding-top: 12em;
+    padding-top: 1em;
   }
 
   #blog-header h2 {
@@ -598,9 +605,10 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .blog-info .section-btn:hover {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ec7171;
+    /* background: #00F260;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #0575E6, #00F260);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #0575E6, #00F260); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #ffffff;
   }
 
@@ -721,9 +729,10 @@ http://www.templatemo.com/tm-509-hydro
   -----------------------------------------*/
 
   footer {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #474747;
+    /* background: #000000; /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     padding-bottom: 2em;
   }
