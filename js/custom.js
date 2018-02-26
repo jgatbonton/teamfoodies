@@ -76,7 +76,7 @@ var userFeed = new Instafeed({
   accessToken: '13944718.1677ed0.903dedce1f964b48909327e0ba154bab',
   resolution: 'standard_resolution',
   useHttp: 'true',
-  limit: 8,
+  limit: 4,
   sortBy: 'most-recent',
   template: 
   // FIX THIS!!!!
