@@ -513,10 +513,16 @@ http://www.templatemo.com/tm-509-hydro
     color: #fff;
     background: #ec7171;
     font-size: 16px;
-    margin: 20px auto;
+    margin-top: 1.5em;
     padding: 8px 40px;
     display: block;
     border: none;
+  }
+  #btn-instafeed-load:hover {
+    opacity:0.9;
+  }
+  #btn-instafeed-load:focus {
+    outline: 0;
   }
 
 
