@@ -699,6 +699,11 @@ minify CSS at the end to better performance
     text-align: center;
   }
 
+  #join img{
+    height: 300px;
+    width: auto;
+  }
+
   .email{
     color: #ec7171;
     font-size: 18px;
@@ -987,6 +992,11 @@ minify CSS at the end to better performance
 
     .about-info {
       margin: 40px 0 40px 0;
+    }
+
+    #join img{
+      height: auto;
+      width: 80%;
     }
 
     .google-map {
