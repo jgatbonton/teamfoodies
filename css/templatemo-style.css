@@ -212,6 +212,11 @@ minify CSS at the end to better performance
     margin-bottom: 0;
     padding-bottom: 0;
   }
+  /* fixes hover of navbar button in mobile */
+  .navbar-default .navbar-toggle:focus {
+    background-color: rgb(71,71,71);
+  }
+
   .custom-navbar {
     border: none;
     margin-bottom: 0;
