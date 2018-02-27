@@ -946,11 +946,18 @@ minify CSS at the end to better performance
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
-      color: #252525;
+      color: #ffffff;
       font-weight: 600;
     }
 
-    .custom-navbar .nav li a,
+    .top-nav-collapse .navbar-brand {
+      color: #252525;
+    }
+
+    .custom-navbar .nav li a {
+      color: #ffffff;
+    }
+
     .top-nav-collapse .nav li a {
       color: #575757;
     }
