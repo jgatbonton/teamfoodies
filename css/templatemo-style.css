@@ -146,6 +146,15 @@ minify CSS at the end to better performance
     text-align: center;
   }
 
+  table{
+    margin: 0 auto;
+  }
+
+  th,td{
+    padding: 0px 20px;
+    color: #696969;
+  }
+
 
   /*---------------------------------------
        PRE LOADER              
@@ -685,6 +694,16 @@ minify CSS at the end to better performance
     color: #ffffff;
   }
 
+  .contact-info{
+    padding: 55px 25px;
+    text-align: center;
+  }
+
+  .email{
+    color: #ec7171;
+    font-size: 18px;
+  }
+
   .google-map {
     border-radius: 100%;
     width: 300px;
@@ -867,7 +886,7 @@ minify CSS at the end to better performance
       height: inherit;
     }
 
-    .blog-info {
+    .blog-info, .contact-info {
       padding: 45px 25px;
     }
 
