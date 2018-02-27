@@ -709,18 +709,10 @@ minify CSS at the end to better performance
     font-size: 18px;
   }
 
-  .google-map {
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
+  #map #google-map {
     margin: 0 auto;
-  }
-
-  .google-map iframe {
-    border: 0;
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
   }
 
   #contact .form-control {
@@ -999,8 +991,9 @@ minify CSS at the end to better performance
       width: 80%;
     }
 
-    .google-map {
-      margin-top: 50px;
+    #map #google-map {
+      width: 100%;
+      height: 300px;
     }
 
     footer {
