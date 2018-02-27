@@ -221,7 +221,7 @@ minify CSS at the end to better performance
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-    background:rgb(71,71,71)!important;
+    background:#474747 !important;
   }
 
   .custom-navbar .navbar-brand {
