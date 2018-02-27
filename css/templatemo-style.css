@@ -212,16 +212,14 @@ minify CSS at the end to better performance
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  /* fixes hover of navbar button in mobile */
-  .navbar-default .navbar-toggle:focus {
-    background-color: rgb(71,71,71);
-  }
-
+/* mobile override of bootstrap */
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
   .custom-navbar {
     border: none;
     margin-bottom: 0;
     padding: 25px 0;
-    background:#474747 !important;
   }
 
   .custom-navbar .navbar-brand {
@@ -948,7 +946,7 @@ minify CSS at the end to better performance
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
-      color: #ffffff;
+      color: #575757;
       font-weight: 600;
     }
 
@@ -957,7 +955,7 @@ minify CSS at the end to better performance
     }
 
     .custom-navbar .nav li a {
-      color: #ffffff;
+      color: #575757;
     }
 
     .top-nav-collapse .nav li a {
