@@ -105,6 +105,11 @@ minify CSS at the end to better performance
     line-height: 0;
   }
 
+  .section-title p{
+    text-align: left;
+    padding: 0 10%;
+  }
+
   .section-btn {
     background: #ce3232;
     border: 0;
