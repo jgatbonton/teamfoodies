@@ -108,7 +108,7 @@ minify CSS at the end to better performance
   .section-btn {
     background: #ce3232;
     border: 0;
-    border-radius: 100px;
+    border-radius: 800px;
     color: #ffffff;
     cursor: pointer;
     font-size: inherit;
