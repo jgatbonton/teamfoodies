@@ -235,6 +235,10 @@ minify CSS at the end to better performance
     letter-spacing: -1px;
   }
 
+  .custom-navbar .navbar-brand:hover {
+    color: #ce3232;
+  }
+
   .top-nav-collapse {
     background: #ffffff !important;
     /* background: #474747; */
