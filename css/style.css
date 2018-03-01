@@ -134,8 +134,8 @@ minify CSS at the end to better performance
 
   .overlay {
     background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(5, 117, 230, 0.7), rgba(0, 242, 96, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(5, 117, 230, 0.7), rgba(0, 242, 96, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.7; */
     position: absolute;
     width: 100%;
@@ -225,7 +225,7 @@ minify CSS at the end to better performance
   .custom-navbar {
     border: none;
     margin-bottom: 0;
-    padding: 25px 0;
+    padding: 1.1em 0 1em 0;
   }
 
   .custom-navbar .navbar-brand {
@@ -342,25 +342,6 @@ minify CSS at the end to better performance
       HOME              
   -----------------------------------------*/
 
-  /* #home { */
-    /* background: url('../pic2.jpg') no-repeat center center; */
-    /* background-size: cover;
-    vertical-align: middle;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    padding-top: 2em;
-    margin: 0;
-    width: 100%;
-  } */
 
 
 
@@ -425,6 +406,11 @@ minify CSS at the end to better performance
     line-height: 1.4;
   }
 
+}
+
+.section-banner {
+  height: 49em !important;
+  margin-top: 23.5em !important;
 }
 
 
