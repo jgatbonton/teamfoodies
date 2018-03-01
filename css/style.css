@@ -548,11 +548,10 @@ minify CSS at the end to better performance
 
   .work-thumb .work-info small {
     color: #d9d9d9;
-    text-transform: uppercase;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 3px;
+    margin-top: 40px;
   }
 
   .work-thumb:hover .work-info h3,
