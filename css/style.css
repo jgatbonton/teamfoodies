@@ -779,6 +779,10 @@ minify CSS at the end to better performance
     text-align: center;
   }
 
+  #location{
+    padding-top: 95px;
+  }
+
   #join img{
     height: 300px;
     width: auto;
@@ -963,8 +967,16 @@ minify CSS at the end to better performance
       height: inherit;
     }
 
-    .blog-info, .contact-info {
+    .blog-info {
       padding: 45px 25px;
+    }
+
+    .contact-info {
+      padding: 45px 25px 80px 25px;
+    }
+
+    #location{
+      padding-top: 45px;
     }
 
     .media.blog-thumb .media-left {
