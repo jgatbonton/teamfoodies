@@ -625,7 +625,7 @@ minify CSS at the end to better performance
     border-radius: 3px;
     text-align: left;
     margin-bottom: 30px;
-    height: 350px;
+    /* height: 350px; */
   }
 
   .media.blog-thumb .media-left {
@@ -652,7 +652,8 @@ minify CSS at the end to better performance
   }
 
   .blog-info {
-    padding: 75px 25px;
+    text-align: left;
+    padding-top: 2em;
   }
 
   .blog-info h3 {
