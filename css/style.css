@@ -229,6 +229,7 @@ minify CSS at the end to better performance
     padding: 1.2em 0 1em 0;
   }
 
+  
   .custom-navbar.navbar-default.navbar-fixed-top {
     padding-bottom: 1.3em;
   }
@@ -625,7 +626,7 @@ minify CSS at the end to better performance
     border-radius: 3px;
     text-align: left;
     margin-bottom: 30px;
-    /* height: 350px; */
+    height: 23em;
   }
 
   .media.blog-thumb .media-left {
@@ -652,8 +653,7 @@ minify CSS at the end to better performance
   }
 
   .blog-info {
-    text-align: left;
-    padding-top: 2em;
+    padding: 75px 25px;
   }
 
   .blog-info h3 {
@@ -777,10 +777,6 @@ minify CSS at the end to better performance
   .contact-info{
     padding: 55px 25px;
     text-align: center;
-  }
-
-  #location{
-    padding-top: 95px;
   }
 
   #join img{
@@ -963,20 +959,21 @@ minify CSS at the end to better performance
       margin-left: 1em;
     }
 
+    /*
+
+
+CHANGE HEREEEEEEEEE!!!!!!!!!!!!
+
+
+
+
+    */
     .blog-thumb {
       height: inherit;
     }
 
-    .blog-info {
+    .blog-info, .contact-info {
       padding: 45px 25px;
-    }
-
-    .contact-info {
-      padding: 45px 25px 80px 25px;
-    }
-
-    #location{
-      padding-top: 45px;
     }
 
     .media.blog-thumb .media-left {
