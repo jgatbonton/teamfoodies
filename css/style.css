@@ -225,7 +225,7 @@ minify CSS at the end to better performance
   .custom-navbar {
     border: none;
     margin-bottom: 0;
-    padding: 1.1em 0 1em 0;
+    padding: 1.5em 0 1em 0;
   }
 
   .custom-navbar .navbar-brand {
@@ -409,8 +409,8 @@ minify CSS at the end to better performance
 }
 
 .section-banner {
-  height: 49em !important;
-  margin-top: 23.5em !important;
+  height: 47em !important;
+  margin-top: 24em !important;
 }
 
 
