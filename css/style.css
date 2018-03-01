@@ -428,6 +428,13 @@ minify CSS at the end to better performance
       ABOUT              
   -----------------------------------------*/
 
+  .about-paragraph {
+    text-align: left;
+  }
+  .about-pic {
+    height: 450px;
+    width: 300px;
+  }
   #about {
     text-align: left;
     padding-bottom: 0;
