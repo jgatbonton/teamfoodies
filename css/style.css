@@ -134,9 +134,9 @@ minify CSS at the end to better performance
 
   .overlay {
     background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    opacity: 0.7;
+    background: -webkit-linear-gradient(to right, rgba(5, 117, 230, 0.7), rgba(0, 242, 96, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(5, 117, 230, 0.7), rgba(0, 242, 96, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* opacity: 0.7; */
     position: absolute;
     width: 100%;
     height: 500px;
@@ -389,6 +389,7 @@ minify CSS at the end to better performance
   background-image: none !important;
   filter: none !important;
 }
+
 /* Carousel base class */
 .carousel {
   height: 500px;
@@ -462,6 +463,12 @@ minify CSS at the end to better performance
     box-shadow: none;
   }
 
+  .section-header {
+    text-align: center;
+    color: white;
+    margin-top: 7.5em;
+    
+  }
 
 
   /*---------------------------------------
