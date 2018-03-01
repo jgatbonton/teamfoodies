@@ -435,6 +435,16 @@ minify CSS at the end to better performance
     height: 450px;
     width: 300px;
   }
+  /* centering */
+  .aboutrow-centered {
+    text-align: center;
+  }
+  .aboutcol-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+  }
   #about {
     text-align: left;
     padding-bottom: 0;
