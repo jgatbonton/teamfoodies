@@ -718,6 +718,35 @@ minify CSS at the end to better performance
   }
 
 
+  /*---------------------------------------
+      FORMS            
+  -----------------------------------------*/
+
+  form{
+    padding: 0 10%;
+  }
+
+  label{
+    display: block;
+    text-align: left;
+  }
+
+  input, textarea {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+
+  textarea{
+    height: 150px;
+    resize: none;
+  }
+
+  input[type="submit"]{
+    width: 110px;
+  }
+
+
 
   /*---------------------------------------
       CONTACTS             
