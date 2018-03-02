@@ -440,6 +440,9 @@ minify CSS at the end to better performance
     float: none;
     text-align: left;
     margin-right: -4px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 2em;
   }
   #about {
     text-align: left;
@@ -457,6 +460,29 @@ minify CSS at the end to better performance
   .about-info {
     margin-top: 60px;
   }
+
+  /* IMPORTANT */
+  .about-box {
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    background: #ffffff;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    /* position: absolute; */
+    /* height: 23em; */
+  }
+  .about-box .about-img img {
+    /* width: 45%; */
+    height: 23em
+  }
+  .about-speciaL {
+    
+  }
+  .padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
 
   .skill-thumb strong {
     display: inline-block;
@@ -684,49 +710,6 @@ minify CSS at the end to better performance
     list-style: square;
     font-weight: normal;
     padding: 4px 12px 4px 0px;
-  }
-
-  .blog-social-share {
-    text-align: center;
-    padding-top: 22px;
-  }
-
-  .blog-social-share .btn {
-    border-radius: 100px;
-    border: none;
-    font-size: 10px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    margin: 20px 6px;
-    padding: 10px 16px;
-  }
-
-  .blog-social-share .btn-primary {
-    background: #3b5998;
-  }
-
-  .blog-social-share .btn-success {
-    background: #1da1f2;
-  }
-
-  .blog-social-share .btn-danger {
-    background: #dd4b39;
-  }
-
-  .blog-social-share a .fa {
-    padding-right: 4px;
-  }
-
-  .blog-ads {
-    background: #f9f9f9;
-    border-right: 4px solid #2b2b2b;
-    padding: 42px;
-    text-align: center;
-    margin: 26px 0 26px 0;
-  }
-
-  .blog-ads h4 {
-    font-size: 18px;
   }
 
 
