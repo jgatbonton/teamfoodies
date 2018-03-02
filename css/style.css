@@ -85,7 +85,7 @@ minify CSS at the end to better performance
   }
 
   a:hover, a:active, a:focus {
-    color: #ce3232;
+    color: #ec7171;
     outline: none;
   }
 
@@ -111,7 +111,7 @@ minify CSS at the end to better performance
   }
 
   .section-btn {
-    background: #ce3232;
+    background: #ec7171;
     border: 0;
     border-radius: 800px;
     color: #ffffff;
@@ -125,11 +125,11 @@ minify CSS at the end to better performance
 
   .section-btn:hover,
   .section-btn:focus {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ec7171;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
-    color: #393939;
+    color: #ffffff;
   }
 
   .overlay {
@@ -344,16 +344,10 @@ minify CSS at the end to better performance
   }
 
 
-  /*---------------------------------------
-      HOME              
-  -----------------------------------------*/
 
-
-
-
-  /* CAROUSEL
--------------------------------------------------- */
-/* gets rid of bootstrap's padding in carousel*/
+/*---------------------------------------
+    CAROUSEL            
+-----------------------------------------*/
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -513,9 +507,6 @@ minify CSS at the end to better performance
   /*---------------------------------------
       INSTAGRAM FEED            
   -----------------------------------------*/
-  /* #work {
-    background: #F0F0F0;
-  } */
   .work-info img {
     width: 100%;
     border-radius: 100%;
@@ -689,16 +680,16 @@ minify CSS at the end to better performance
   }
 
   .blog-info .section-btn {
-    background: #f0f0f0;
-    color: #393939;
+    background: #ec7171;
+    color: #ffffff;
     margin-top: 20px;
   }
 
-  .blog-info .section-btn:hover {
-    background: #ec7171;
-    /* background: #00F260;  fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #0575E6, #00F260);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #0575E6, #00F260); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .blog-info .section-btn:hover, .blog-info .section-btn:focus {
+    background: #ec7171;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: transparent;
     color: #ffffff;
   }
 
@@ -813,9 +804,6 @@ minify CSS at the end to better performance
 
   footer {
     background: #474747;
-    /* background: #000000; /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #434343, #000000);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #434343, #000000); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     padding-bottom: 2em;
   }
