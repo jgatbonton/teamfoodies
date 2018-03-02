@@ -749,8 +749,12 @@ minify CSS at the end to better performance
   }
 
   .contact-info{
-    padding: 55px 25px;
+    padding: 45px 25px;
     text-align: center;
+  }
+
+  #location{
+    padding-top: 75px;
   }
 
   #join img{
@@ -943,8 +947,16 @@ CHANGE HEREEEEEEEEE!!!!!!!!!!!!
       height: inherit;
     }
 
-    .blog-info, .contact-info {
+    .blog-info {
       padding: 45px 25px;
+    }
+
+    .contact-info {
+      padding: 45px 25px 65px 25px;
+    }
+
+    #location{
+      padding-top: 30px;
     }
 
     .media.blog-thumb .media-left {
