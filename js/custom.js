@@ -71,7 +71,6 @@
 
 
 // INSTAFEED
-// will need userId and accessToken
 var userFeed = new Instafeed({
   get: 'user',
   userId: 2985480272,
