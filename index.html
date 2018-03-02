@@ -1,7 +1,6 @@
 <!--
 WORK LEFT TO DO:
 -IMAGES ON BANNER
--IMAGES IN WELCOME SECTION AND MAYBE FORMAT?
 -FIX ARROWS!
 -ADD FAVICON
 -->
@@ -74,51 +73,26 @@ WORK LEFT TO DO:
     </div>
     
     <div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
-            <div class="carousel-inner" role="listbox">
-              <div class="item active section-banner">
-                <img class="first-slide" src="images/pic3.jpg" alt="First slide">
-                <!-- <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Example headline.</h1>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                  </div>
-                </div> -->
-              </div>
-              <div class="item section-banner">
-                <img class="second-slide" src="images/stockhome.png" alt="Second slide">
-                <!-- <div class="container">
-                  <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                  </div>
-                </div> -->
-              </div>
-              <div class="item section-banner">
-                <img class="third-slide" src="images/pic1.jpg" alt="Third slide">
-                <!-- <div class="container">
-                  <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                  </div>
-                </div> -->
-              </div>
-            </div>
-            <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a> -->
-          </div><!-- /.carousel -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active section-banner">
+          <img class="first-slide" src="images/pic3.jpg" alt="First slide">
+        </div>
+        <div class="item section-banner">
+          <img class="second-slide" src="images/stockhome.png" alt="Second slide">
+        </div>
+        <div class="item section-banner">
+          <img class="third-slide" src="images/pic1.jpg" alt="Third slide">
+        </div>
+      </div>
+
+    </div><!-- /.carousel -->
 
      <!-- WELCOME NAV -->
      <section id="blog" data-stellar-background-ratio="0.5">
@@ -131,40 +105,45 @@ WORK LEFT TO DO:
                               <span class="line-bar">...</span>
                          </div>
                     </div>
-                    <!--Our Story button-->
+                </div>
+                <!-- Our Story and Catering Button -->
+                <div class="row">
+
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
                        <a href="about.html">
-                          <div class="media blog-thumb">
+                          <div class="welcome-nav-button">
                                      <img src="images/home/story.jpg" class="img-responsive" alt="">
                               </div></a>
                               
                     </div>
-                    <!--Catering button-->
+          
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
                       <a href="catering.html">
-                         <div class="media blog-thumb">
+                         <div class="welcome-nav-button">
                                     <img src="images/home/catering.jpg" class="img-responsive" alt="">
                               </div></a>
                          </div>
-
-                    <!--Rewards button-->
+                </div>
+                <!-- Rewards and Products Button -->
+                <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
                          <a href="rewards.html">
-                          <div class="media blog-thumb">
+                            <div class="welcome-nav-button">
                                  <img src="images/home/rewards.jpg" class="img-responsive" alt="">
-                              </div></a>
+                            </div>
+                          </a>
                               
                     </div>
-                    <!--Products button-->
                     <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6">
                         <a href="menu.html">
-                           <div class="media blog-thumb">
+                           <div class="welcome-nav-button">
                                     <img src="images/home/products.jpg" class="img-responsive" alt="">
-                              </div>
-                         </div></a>
+                            </div>
+                        </a>
+                    </div>  
+                 </div>
 
-                    
-               </div></div>
+              </div> <!-- end container -->
      </section>
 
      <hr>
@@ -193,9 +172,6 @@ WORK LEFT TO DO:
                </div>
           </div>
      </section>
-
-
-
 
      <!-- FOOTER -->
      <footer data-stellar-background-ratio="0.5">

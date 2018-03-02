@@ -413,6 +413,17 @@ minify CSS at the end to better performance
   margin-top: 24em !important;
 }
 
+  /*---------------------------------------
+      Welcome Nav             
+  -----------------------------------------*/
+.welcome-nav-button {
+  border: rgba(0, 0, 0, 0.1) 1px solid;
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
 
   /*---------------------------------------
       ABOUT              
