@@ -475,8 +475,8 @@ minify CSS at the end to better performance
     /* width: 45%; */
     height: 23em
   }
-  .about-speciaL {
-    
+  .about-textspecial{
+    margin-top: 3em;
   }
   .padding-0 {
     padding-right: 0;
