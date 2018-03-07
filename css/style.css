@@ -220,7 +220,7 @@ minify CSS at the end to better performance
   }
 
   /* mobile override of bootstrap */
-  .navbar-default .navbar-toggle:focus {
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #ffffff;
   }
   .custom-navbar {
@@ -1041,7 +1041,7 @@ minify CSS at the end to better performance
     }
 
     .custom-navbar .navbar-nav.navbar-right li {
-      display: inline-block;
+      text-align: center;
     }
 
     .custom-navbar .section-btn {
