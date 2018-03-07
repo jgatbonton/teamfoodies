@@ -346,7 +346,9 @@ minify CSS at the end to better performance
 
 
 /*---------------------------------------
-    CAROUSEL            
+    CAROUSEL
+
+    - change height of banner to vh
 -----------------------------------------*/
 .container-fluid {
   padding-right: 0;
