@@ -425,7 +425,9 @@ minify CSS at the end to better performance
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
     margin-bottom: 2em;
+    width: 70%;
   }
 
   a .welcome-nav-button:hover {
@@ -1062,6 +1064,10 @@ minify CSS at the end to better performance
 
     .home-info span {
       margin-top: 20px;
+    }
+
+    .welcome-nav-button{
+      width: 100%;
     }
 
     #about .about-info:first-child {
