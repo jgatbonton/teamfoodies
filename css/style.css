@@ -797,33 +797,6 @@ minify CSS at the end to better performance
     height: 500px;
   }
 
-  #contact .form-control {
-    border: 0;
-    border-radius: 5px;
-    box-shadow: none;
-    color: rgba(20,20,20,0.5);
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    padding-left: 8px;
-  }
-
-  #contact input,
-  #contact select {
-    height: 55px;
-  }
-
-  #contact select {
-    color: rgba(20,20,20,0.5);
-  }
-
-  #contact input[type='submit'] {
-    background: #ce3232;
-    border-radius: 100px;
-    color: #ffffff;
-    font-weight: 500;
-  }
-
 
 
   /*---------------------------------------
@@ -971,7 +944,7 @@ minify CSS at the end to better performance
     }
 
     #location{
-      padding-top: 30px;
+      height: 320px;
     }
 
     .media.blog-thumb .media-left {
