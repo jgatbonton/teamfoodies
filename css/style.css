@@ -1116,7 +1116,7 @@ minify CSS at the end to better performance
 
     .about-textspecial {
       font-size: 13px;
-      margin-top: .5em;
+      margin-top: .4em;
     }
     .about-textspecial p {
       font-size: 10px;
@@ -1128,9 +1128,14 @@ minify CSS at the end to better performance
     }
 
     .instaimg img {
-      margin-bottom:1.5em;
-      height: 13em;
-      width: 14em;
+      margin-bottom:0.1em;
+      height: 12em;
+      width: 12em;
+    }
+
+    .instaimg.col-xs-6 {
+      padding: 0.3em;
+
     }
 
     h1 {
