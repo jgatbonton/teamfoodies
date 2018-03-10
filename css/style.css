@@ -641,6 +641,7 @@ minify CSS at the end to better performance
     margin-bottom:2em;
     height: 15em;
     width: 17em;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
   }
   .instaimg img:hover {
     opacity:0.8;
