@@ -170,8 +170,8 @@ minify CSS at the end to better performance
   }
 
   section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4em;
+    padding-bottom: 4em;
     text-align: center;
   }
 
@@ -1124,6 +1124,12 @@ minify CSS at the end to better performance
     .about-box .about-img img {
       /* width: 45%; */
       height: 15em;
+    }
+
+    .instaimg img {
+      margin-bottom:1.5em;
+      height: 13em;
+      width: 14em;
     }
 
     h1 {

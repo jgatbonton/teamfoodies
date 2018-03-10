@@ -80,7 +80,7 @@ var userFeed = new Instafeed({
   limit: 4,
   sortBy: 'most-recent',
   template: 
-  '<div class="col-md-3 col-sm-3 instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-responsive center-block"/></a></div>',
+  '<div class="col-md-3 col-sm-3 col-xs-6 instaimg"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-responsive center-block"/></a></div>',
   
   target: 'Instafeed',
   after: function() {
