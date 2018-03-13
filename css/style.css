@@ -648,21 +648,18 @@ minify CSS at the end to better performance
     -moz-opacity:0.8;
     -webkit-opacity:0.8;
   }
-
-  #btn-instafeed-load {
-    color: #fff;
-    background: #ec7171;
-    font-size: 16px;
-    margin-top: 1.5em;
-    padding: 8px 40px;
-    display: block;
-    border: none;
-  }
-  #btn-instafeed-load:hover {
-    opacity:0.9;
-  }
-  #btn-instafeed-load:focus {
+ 
+  #btn-instafeed-load.section-btn:focus {
     outline: 0;
+    background: #ec7171;
+  }
+
+  #btn-instafeed-load.section-btn:hover {
+    background: #ec7171;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: transparent;
+    color: #ffffff;
   }
 
 
