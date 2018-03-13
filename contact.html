@@ -132,11 +132,72 @@
                 <div class="col-md-12 col-sm-12">
                      <div class="section-title">
                           <h2>Join the Guiltea Team!</h2>
-                          <img src="images/employees.jpg" alt="Employees">
-                          <h4>Email your resume, availability, and why you want to join the Guiltea team to:</h4>
-                          <div class="email">
-                            email@address.com
+                          <img src="images/employees.jpg" alt="Employees"><br /><br />
+                          <button type="button" class="btn section-btn" data-toggle="modal" data-target="#jobapp">
+                            Apply Now
+                          </button>
+                          
+
+                          <!-- Job App Modal -->
+                          <div class="modal fade" id="jobapp" tabindex="-1" role="dialog" aria-labelledby="jobappModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                  <h2 class="modal-title" id="exampleModalLabel">Join the Guiltea Team!</h2>
+                                </div>
+                                <div class="modal-body">
+                                  <form id="jobform">
+
+                                    <label for="name" class="col-form-label">Full Name*</label>
+                                    <input type="text" class="form-control" name="name" required><br />
+
+                                    <label for="email" class="col-form-label">Email Address*</label>
+                                    <input type="text" class="form-control" name="email" required><br />
+
+                                    <label for="street" class="col-form-label">Street Address</label>
+                                    <input type="text" class="form-control" name="street"><br />
+
+                                    <label for="city" class="col-form-label">City</label>
+                                    <input type="text" class="form-control" name="city"><br />
+
+                                    <label for="state" class="col-form-label">State</label>
+                                    <input type="text" class="form-control" name="state"><br />
+
+                                    <label for="zip" class="col-form-label">Zip Code</label>
+                                    <input type="text" class="form-control" name="zip"><br />
+
+                                    <label for="number" class="col-form-label">Phone Number*</label>
+                                    <input type="tel" class="form-control" name="number" required><br />
+
+                                    <label for="availability" class="col-form-label">Your Availability (Days &amp; Times)*</label>
+                                    <textarea name="availability" form="jobform" class="form-control" required></textarea><br />
+
+                                    <label for="education" class="col-form-label">Describe Your Education*</label>
+                                    <textarea name="education" form="jobform" class="form-control" required></textarea><br />
+
+                                    <label for="workexp" class="col-form-label">Describe Your Work Experience*</label>
+                                    <textarea name="workexp" form="jobform" class="form-control" required></textarea><br />
+
+                                    <label for="age" class="col-form-label">Are you at least 18 years of age?*</label>
+                                    <select name="age" form="jobform" class="form-control" required>
+                                      <option value="yes">Yes</option>
+                                      <option value="no">No</option>
+                                    </select><br />
+
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn section-btn" data-dismiss="modal">Cancel</button>
+                                  <button type="button" class="btn section-btn">Submit</button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
+                          <!-- End Job App Modal -->
+
                      </div>
                 </div>
 

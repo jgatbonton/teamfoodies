@@ -835,11 +835,6 @@ minify CSS at the end to better performance
     width: auto;
   }
 
-  .email{
-    color: #ec7171;
-    font-size: 18px;
-  }
-
   #map #google-map {
     margin: 0 auto;
     width: 800px;
