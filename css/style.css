@@ -459,11 +459,13 @@ minify CSS at the end to better performance
 .section-banner {
   height: 49.27em !important;
   margin-top: 24em !important;
+  width: 100%;
 }
 
 .section-banner-subpage {
   height: 14.5em !important;
   margin-top: 1em !important;
+  width: 100%;
 }
 
   /*---------------------------------------
