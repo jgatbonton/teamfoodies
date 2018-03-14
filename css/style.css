@@ -132,8 +132,12 @@ minify CSS at the end to better performance
     transition: 0.5s;
   }
 
-  .section-btn:hover,
   .section-btn:focus {
+    background: #ec7171;
+    outline: 0;
+    color: white;
+  }
+  .section-btn:hover {
     background: #ec7171;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
