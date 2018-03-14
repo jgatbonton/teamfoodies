@@ -780,6 +780,14 @@ minify CSS at the end to better performance
       padding-bottom: 20px;
   }
 
+  #menu .deskimg{
+    display: block;
+  }
+
+  #menu .mobimg{
+    display: none;
+  }
+
 
   /*---------------------------------------
       FORMS            
@@ -1100,6 +1108,14 @@ minify CSS at the end to better performance
 
     .about-info {
       margin: 40px 0 40px 0;
+    }
+
+    #menu .deskimg{
+      display: none;
+    }
+
+    #menu .mobimg{
+      display: block;
     }
 
     #join img{
