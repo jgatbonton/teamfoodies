@@ -1169,16 +1169,16 @@ minify CSS at the end to better performance
   @media screen and (max-width: 639px) {
 
     .about-textspecial {
-      font-size: 10px;
-      margin-top: .1em;
+      font-size: 21px;
+      margin-top: .05em;
     }
     .about-textspecial p {
-      font-size: 8.6px;
+      font-size: 13px;
       line-height: 1.5;
     }
     .about-box .about-img img {
       /* width: 45%; */
-      height: 10em;
+      height: 13em;
     }
 
     .instaimg img {
