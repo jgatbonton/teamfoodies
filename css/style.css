@@ -443,7 +443,7 @@ minify CSS at the end to better performance
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 16em;
+  height: 25em;
 }
 @media (min-width: 768px) {
 
@@ -463,7 +463,7 @@ minify CSS at the end to better performance
 }
 
 .section-banner-subpage {
-  height: 14.5em !important;
+  height: 100em !important;
   margin-top: 1em !important;
   width: 100%;
 }
