@@ -1191,6 +1191,10 @@ minify CSS at the end to better performance
       padding: 0.3em;
 
     }
+    /* insta button */
+    #btn-instafeed-load.section-btn:hover {
+      background: #ec7171;
+    }
 
     h1 {
       font-size: 2em;
