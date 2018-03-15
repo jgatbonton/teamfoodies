@@ -443,7 +443,7 @@ minify CSS at the end to better performance
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 13em;
+  height: 16em;
 }
 @media (min-width: 768px) {
 
@@ -1141,6 +1141,15 @@ minify CSS at the end to better performance
     .footer-info p,
     .footer-bottom .phone-contact {
       margin-right: 0;
+    }
+    /* for homepage */
+    .overlay {
+      height: 20em;
+     }
+     #myCarousel {
+      height: 20em;
+      padding-top: 7em;
+      /* text-align: left; */
     }
   }
 
