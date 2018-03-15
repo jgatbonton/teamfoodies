@@ -438,6 +438,13 @@ minify CSS at the end to better performance
   /* height: 40vh; */
   /* background-color: #777; */
 /* } */
+.home-deskimg{
+  display: block !important;
+}
+
+.home-mobile{
+  display: none !important;
+}
 .carousel-inner > .item > img {
   position: relative;
   top: 0;
@@ -1185,7 +1192,13 @@ minify CSS at the end to better performance
       height: 12em;
       width: 100%;
     }
-
+    /* .home-deskimg{
+      display: none !important;
+    }
+    
+    .home-mobile{
+      display: block !important;
+    } */
     .instaimg img {
       margin-bottom:0.1em;
       height: 12em;
