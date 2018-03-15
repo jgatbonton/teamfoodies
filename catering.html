@@ -84,8 +84,8 @@
                     </div>
 
                     <div class="col-md-12 col-sm-12 boxed">
-                      <p>Please fill out the form below and we will promptly respond back to you with a quote. We look forward to serving you!</p><br />
-                      <form id="catering" onsubmit="alert('Submitted! We will get back to you soon!')">
+                      <p>Please fill out this form 48 hours in advance and we will promptly respond back to you with a quote. We look forward to serving you!</p><br />
+                      <form id="catering" onsubmit="openModal()">
 
                         <label for="name">Full Name*</label>
                         <input type="text" name="name" required /><br />
@@ -111,6 +111,27 @@
                         <input type="submit" value="Submit" class="center-block section-btn">
                       </form>
                     </div>
+
+                    <!-- Sucess Modal -->
+                    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h2 class="modal-title" id="exampleModalLongTitle">Your order has been submitted!</h2>
+                          </div>
+                          <div class="modal-body">
+                            <p class="text-left">We will get back to you with a quote soon. For questions, email us at guilteacravings@gmail.com or call us at (858) 430-6420. Thank you for choosing Guiltea Cravings!</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn section-btn" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Success Modal -->
 
                </div>
           </div>
@@ -146,6 +167,12 @@
      <script src="js/jquery.magnific-popup.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+     <script type="text/javascript">
+        $('#catering').on('submit', function(e){
+          $('#successModal').modal('show');
+          e.preventDefault();
+        });
+     </script>
 
 </body>
 </html>
