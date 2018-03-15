@@ -1195,6 +1195,9 @@ minify CSS at the end to better performance
     #btn-instafeed-load.section-btn:hover {
       background: #ec7171;
     }
+    .section-btn:hover {
+      background: #ec7171;
+    }
 
     h1 {
       font-size: 2em;
