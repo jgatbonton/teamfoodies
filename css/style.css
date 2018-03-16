@@ -445,12 +445,16 @@ minify CSS at the end to better performance
 .home-mobile{
   display: none !important;
 }
+
 .carousel-inner > .item > img {
   position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 25em;
+}
+#myCarousel-subpage .carousel-inner > .item > img {
+  margin-top: 55em;
 }
 @media (min-width: 768px) {
 
@@ -471,7 +475,7 @@ minify CSS at the end to better performance
 
 .section-banner-subpage {
   height: 100em !important;
-  margin-top: 1em !important;
+  margin-top: 65em !important;
   width: 100%;
 }
 
@@ -1194,9 +1198,9 @@ minify CSS at the end to better performance
     }
     /* .home-deskimg{
       display: none !important;
-    }
+    } */
     
-    .home-mobile{
+    /* .home-mobile{
       display: block !important;
     } */
     .instaimg img {
