@@ -454,7 +454,7 @@ minify CSS at the end to better performance
   height: 25em;
 }
 #myCarousel-subpage .carousel-inner > .item > img {
-  margin-top: 55em;
+  margin-top: 35em;
 }
 @media (min-width: 768px) {
 
