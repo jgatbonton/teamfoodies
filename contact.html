@@ -149,13 +149,13 @@
                                   <h2 class="modal-title" id="exampleModalLabel">Join the Guiltea Team!</h2>
                                 </div>
                                 <div class="modal-body">
-                                  <form id="jobform">
+                                  <form id="jobform" action="POST">
 
                                     <label for="name" class="col-form-label">Full Name*</label>
                                     <input type="text" class="form-control" name="name" required><br />
 
                                     <label for="email" class="col-form-label">Email Address*</label>
-                                    <input type="text" class="form-control" name="email" required><br />
+                                    <input type="email" class="form-control" name="email" required><br />
 
                                     <label for="street" class="col-form-label">Street Address</label>
                                     <input type="text" class="form-control" name="street"><br />
@@ -187,11 +187,11 @@
                                       <option value="no">No</option>
                                     </select><br />
 
+                                    <button type="button" class="btn section-btn section2-btn" data-dismiss="modal" style="display: inline;">Cancel</button>
+
+                                    <input type="submit" value="Submit" class="center-block section-btn" style="display: inline;">
+
                                   </form>
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn section-btn" data-dismiss="modal">Cancel</button>
-                                  <button type="button" class="btn section-btn">Submit</button>
                                 </div>
                               </div>
                             </div>
