@@ -602,7 +602,14 @@ minify CSS at the end to better performance
     text-align: center;
     color: white;
     margin-top: 4.8em;
-    
+  }
+  /* will have to change for smaller screen */
+  .section-header2 {
+    margin-top: 6.5em;
+  }
+  .section-header2 img {
+    height:12em;
+    width: 30em;
   }
 
 
@@ -1213,11 +1220,18 @@ minify CSS at the end to better performance
       padding-top: 4em;
       /* text-align: left; */
     }
+    .section-header2 img {
+      height:8em;
+      width: 20em;
+    }
 
   }
 
   @media screen and (max-width: 639px) {
-
+    .section-header2 img {
+      height:7em;
+      width: 16em;
+    }
     .about-textspecial {
       font-size: 20px;
       margin-top: 0.02em;
