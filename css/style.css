@@ -616,7 +616,7 @@ minify CSS at the end to better performance
   }
   .section-header2 img {
     height:12em;
-    width: 30em;
+    width: 37em;
   }
 
 
@@ -1237,7 +1237,7 @@ minify CSS at the end to better performance
     }
     .section-header2 img {
       height:8em;
-      width: 20em;
+      width: 24em;
     }
 
   }
@@ -1245,7 +1245,7 @@ minify CSS at the end to better performance
   @media screen and (max-width: 639px) {
     .section-header2 img {
       height:7em;
-      width: 16em;
+      width: 21em;
     }
     .about-textspecial {
       font-size: 20px;
