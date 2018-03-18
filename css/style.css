@@ -180,8 +180,8 @@ minify CSS at the end to better performance
   }
 
   section {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     text-align: center;
   }
 
@@ -673,6 +673,10 @@ minify CSS at the end to better performance
     -webkit-opacity:0.8;
   }
  
+  #btn-instafeed-load.section-btn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   #btn-instafeed-load.section-btn:focus {
     outline: 0;
     background: #ec7171;
