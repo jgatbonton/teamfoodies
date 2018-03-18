@@ -366,6 +366,14 @@ minify CSS at the end to better performance
     padding-right: 10px;
   }
 
+  #teamfoodies{
+    color: white;
+  }
+
+  #teamfoodies:hover{
+    color: #ce3232;
+  }
+
   @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
