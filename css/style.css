@@ -888,15 +888,6 @@ minify CSS at the end to better performance
   }
 
   /*---------------------------------------
-      REWARDS             
-  -----------------------------------------*/
-
-  #rewards img{
-    height: 300px;
-    width: auto;
-  }
-
-  /*---------------------------------------
       CONTACTS             
   -----------------------------------------*/
 
@@ -1199,11 +1190,6 @@ minify CSS at the end to better performance
 
     #menu .mobimg{
       display: block;
-    }
-
-    #rewards img{
-      height: auto;
-      width: 100%;
     }
 
     #join img{
