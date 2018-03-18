@@ -98,6 +98,16 @@ minify CSS at the end to better performance
     outline: none;
   }
 
+  #backtop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+  }
+
   .section-title {
     margin-bottom: 2.25em;
   }
