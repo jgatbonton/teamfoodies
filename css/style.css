@@ -1118,7 +1118,8 @@ minify CSS at the end to better performance
 
     .custom-navbar .nav li a {
       line-height: normal;
-      padding: 5px;
+      font-size: 23px;
+      padding: 10px;
     }
 
 
