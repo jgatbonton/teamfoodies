@@ -1080,7 +1080,6 @@ minify CSS at the end to better performance
   }
 
   @media screen and (max-width: 767px) {
-
     .custom-navbar {
       background: #ffffff;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -1209,9 +1208,8 @@ minify CSS at the end to better performance
       padding-left: 0.05em;
     }
     .about-box .about-img img {
-      /* width: 45%; */
       height: 12em;
-      width: 100%;
+      /* width: 100%; */
     }
     /* .home-deskimg{
       display: none !important;
