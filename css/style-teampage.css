@@ -1,0 +1,25 @@
+body {
+    background-color: #212121;
+    color: #fafafa;
+  }
+  
+  a {
+    color: #fafafa;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  /*adjust max-width*/
+@media screen and (max-width: 991px) {
+  .aboutcol-centered {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    /* margin-right: -4px; */
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 2em;
+  }
+}
