@@ -366,6 +366,14 @@ minify CSS at the end to better performance
     padding-right: 10px;
   }
 
+  #teamfoodies{
+    color: white;
+  }
+
+  #teamfoodies:hover{
+    color: #ce3232;
+  }
+
   @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
@@ -625,6 +633,7 @@ minify CSS at the end to better performance
     position: relative;
     cursor: pointer;
     border-radius: 3px;
+    margin-bottom: 1.25em;
   }
 
   .work-thumb .work-info {
@@ -647,7 +656,10 @@ minify CSS at the end to better performance
     right: 0px;
     bottom: 0px;
     content: "";
-    background: #ce3232;
+    /* background: #ce3232; */
+    background: #ec7171;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));
     opacity: 0;
     transition: 0.5s;
   }
@@ -665,6 +677,7 @@ minify CSS at the end to better performance
     color: #ffffff;
     z-index: 2;
     position: relative;
+    margin-top: 0;
   }
 
   .work-thumb .work-info small {
@@ -672,7 +685,9 @@ minify CSS at the end to better performance
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-top: 40px;
+    padding-left:14px;
+    padding-right:14px;
+    /* margin-top: 40px; */
   }
 
   .work-thumb:hover .work-info h3,
@@ -1074,11 +1089,11 @@ minify CSS at the end to better performance
       bottom: 10em;
     }
 
-    #work .work-thumb,
+    /* #work .work-thumb,
     .footer-thumb {
       margin-top: 20px;
       margin-bottom: 30px;
-    }
+    } */
     .aboutcol-centered {
       display: inline-block;
       float: none;
