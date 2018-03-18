@@ -350,6 +350,12 @@ minify CSS at the end to better performance
     border-color: transparent;
   }
 
+  .navbar-logo{
+    height: 45px;
+    float: left;
+    padding-right: 10px;
+  }
+
   @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
@@ -1120,6 +1126,10 @@ minify CSS at the end to better performance
 
     .custom-navbar .section-btn a {
       color: #ffffff !important;
+    }
+
+    .navbar-logo{
+      padding: 0 0 0 20px;
     }
 
     .home-info span {
