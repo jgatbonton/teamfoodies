@@ -523,15 +523,14 @@ minify CSS at the end to better performance
   .aboutrow-centered {
     text-align: center;
   }
-  .aboutcol-centered {
+  /* .aboutcol-centered {
     display: inline-block;
     float: none;
     text-align: left;
-    /* margin-right: -4px; */
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 2em;
-  }
+  } */
   #about {
     text-align: left;
     padding-bottom: 0;
@@ -558,10 +557,12 @@ minify CSS at the end to better performance
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     /* position: absolute; */
     /* height: 23em; */
+    margin-bottom: 2em;
+    text-align: left;
   }
   .about-box .about-img img {
     /* width: 45%; */
-    height: 20em;
+    height: 16em;
   }
   .about-textspecial{
     margin-top: 2.5em;
@@ -1065,6 +1066,15 @@ minify CSS at the end to better performance
       margin-top: 20px;
       margin-bottom: 30px;
     }
+    .aboutcol-centered {
+      display: inline-block;
+      float: none;
+      vertical-align: middle;
+      /* margin-right: -4px; */
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 2em;
+    }
   }
 
   @media only screen and (min-width: 640px) and (max-width: 767px) {
@@ -1081,6 +1091,7 @@ minify CSS at the end to better performance
       position: relative;
       bottom: 10em;
     }
+    
   }
 
   @media screen and (max-width: 767px) {
@@ -1195,6 +1206,7 @@ minify CSS at the end to better performance
       padding-top: 4em;
       /* text-align: left; */
     }
+
   }
 
   @media screen and (max-width: 639px) {
@@ -1212,7 +1224,7 @@ minify CSS at the end to better performance
       padding-left: 0.05em;
     }
     .about-box .about-img img {
-      height: 12em;
+      height: 12.2em;
       /* width: 100%; */
     }
     /* .home-deskimg{
