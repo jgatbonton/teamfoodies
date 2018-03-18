@@ -99,7 +99,7 @@ minify CSS at the end to better performance
   }
 
   .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 2.25em;
   }
 
   .section-title h2 {
@@ -181,7 +181,7 @@ minify CSS at the end to better performance
 
   section {
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     text-align: center;
   }
 
