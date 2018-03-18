@@ -132,6 +132,12 @@ minify CSS at the end to better performance
     transition: 0.5s;
   }
 
+  .section2-btn {
+    background: white; 
+    color: #ec7171; 
+    border: 1px solid #ec7171;
+  }
+
   .section-btn:focus {
     background: #ec7171;
     outline: 0;
