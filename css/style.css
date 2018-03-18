@@ -555,9 +555,6 @@ minify CSS at the end to better performance
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-    /* position: absolute; */
-    /* height: 23em; */
-    margin-bottom: 2em;
     text-align: left;
   }
   .about-box .about-img img {
