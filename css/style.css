@@ -240,7 +240,7 @@ minify CSS at the end to better performance
     margin-top: -10px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 1px solid #575757;
+    border: 1px solid #5f5d8c;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
   }
