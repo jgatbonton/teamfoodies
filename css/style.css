@@ -614,9 +614,18 @@ minify CSS at the end to better performance
   .section-header2 {
     margin-top: 6.5em;
   }
+
   .section-header2 img {
     height:12em;
     width: 37em;
+  }
+
+  .section-header3 {
+    margin-top: 11em;
+  }
+  .section-header3 img {
+    height:12em;
+    width: 47em;
   }
 
 
@@ -1239,6 +1248,13 @@ minify CSS at the end to better performance
       height:8em;
       width: 24em;
     }
+    .section-header3 {
+      margin-top: 7em;
+    }
+    .section-header3 img {
+      height:11em;
+      width: 36em;
+    }
 
   }
 
@@ -1246,6 +1262,13 @@ minify CSS at the end to better performance
     .section-header2 img {
       height:7em;
       width: 21em;
+    }
+    .section-header3 {
+      margin-top: 9em;
+    }
+    .section-header3 img {
+      height:7em;
+      width: 23em;
     }
     .about-textspecial {
       font-size: 20px;
