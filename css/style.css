@@ -240,7 +240,7 @@ minify CSS at the end to better performance
     margin-top: -10px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 1px solid #575757;
+    border: 1px solid #5f5d8c;
     border-top-color: #ffffff;
     animation: spinner .9s linear infinite;
   }
@@ -1125,7 +1125,8 @@ minify CSS at the end to better performance
 
     .custom-navbar .nav li a {
       line-height: normal;
-      padding: 5px;
+      font-size: 23px;
+      padding: 10px;
     }
 
 
