@@ -1206,7 +1206,7 @@ minify CSS at the end to better performance
 
     /* for subpages */
     .overlay-subpage {
-      height: 14em;
+      height: 14.1em;
     }
     #myCarousel-subpage {
       height: 14em;
@@ -1234,13 +1234,13 @@ minify CSS at the end to better performance
       height: 12.2em;
       /* width: 100%; */
     }
-    /* .home-deskimg{
+    .home-deskimg{
       display: none !important;
-    } */
+    }
     
-    /* .home-mobile{
+    .home-mobile{
       display: block !important;
-    } */
+    }
     .instaimg img {
       margin-bottom:0.1em;
       height: 12em;
