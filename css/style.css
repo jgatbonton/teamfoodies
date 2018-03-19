@@ -94,7 +94,7 @@ minify CSS at the end to better performance
   }
 
   a:hover, a:active, a:focus {
-    color: #ec7171;
+    color: #888DC0;
     outline: none;
   }
 
@@ -130,7 +130,7 @@ minify CSS at the end to better performance
   }
 
   .section-btn {
-    background: #ec7171;
+    background: #888DC0;
     border: 0;
     border-radius: 800px;
     color: #ffffff;
@@ -144,17 +144,17 @@ minify CSS at the end to better performance
 
   .section2-btn {
     background: white; 
-    color: #ec7171; 
-    border: 1px solid #ec7171;
+    color: #888DC0; 
+    border: 1px solid #888DC0;
   }
 
   .section-btn:focus {
-    background: #ec7171;
+    background: #888DC0;
     outline: 0;
     color: white;
   }
   .section-btn:hover {
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
@@ -162,7 +162,7 @@ minify CSS at the end to better performance
   }
 
   .overlay {
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.7; */
@@ -176,7 +176,7 @@ minify CSS at the end to better performance
   }
 
   .overlay-subpage {
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.7; */
@@ -286,7 +286,7 @@ minify CSS at the end to better performance
   }
 
   .custom-navbar .navbar-brand:hover {
-    color: #ce3232;
+    color: #888DC0;
   }
 
   .top-nav-collapse {
@@ -333,7 +333,7 @@ minify CSS at the end to better performance
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #888DC0;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -343,7 +343,7 @@ minify CSS at the end to better performance
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #ce3232;
+    color: #888DC0;
   }
 
   .custom-navbar .navbar-toggle {
@@ -371,7 +371,7 @@ minify CSS at the end to better performance
   }
 
   #teamfoodies:hover{
-    color: #ce3232;
+    color: #888DC0;
   }
 
   @media(min-width:768px) {
@@ -666,7 +666,7 @@ minify CSS at the end to better performance
     bottom: 0px;
     content: "";
     /* background: #ce3232; */
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));
     opacity: 0;
@@ -723,11 +723,11 @@ minify CSS at the end to better performance
   }
   #btn-instafeed-load.section-btn:focus {
     outline: 0;
-    background: #ec7171;
+    background: #888DC0;
   }
 
   #btn-instafeed-load.section-btn:hover {
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
@@ -789,7 +789,7 @@ minify CSS at the end to better performance
   }
 
   .blog-thumb small {
-    color: #ce3232;
+    color: #888DC0;
     font-weight: 500;
     display: block;
   }
@@ -818,13 +818,13 @@ minify CSS at the end to better performance
   }
 
   .blog-info .section-btn {
-    background: #ec7171;
+    background: #888DC0;
     color: #ffffff;
     margin-top: 20px;
   }
 
   .blog-info .section-btn:hover, .blog-info .section-btn:focus {
-    background: #ec7171;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214));  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgb(119, 112, 179), rgb(161, 214, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
@@ -901,7 +901,7 @@ minify CSS at the end to better performance
   -----------------------------------------*/
 
   #contact {
-    background: #00F260;  /* fallback for old browsers */
+    background: #888DC0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
@@ -1019,7 +1019,7 @@ minify CSS at the end to better performance
   }
 
   .social-icon li a:hover {
-    color: #ce3232;
+    color: #888DC0;
   }
 
 
@@ -1302,10 +1302,10 @@ minify CSS at the end to better performance
     }
     /* insta button */
     #btn-instafeed-load.section-btn:hover {
-      background: #ec7171;
+      background: #888DC0;
     }
     .section-btn:hover {
-      background: #ec7171;
+      background: #888DC0;
     }
 
     h1 {
