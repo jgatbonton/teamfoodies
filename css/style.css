@@ -1262,10 +1262,11 @@ minify CSS at the end to better performance
     }
     .section-header3 {
       margin-top: 9em;
+      margin-left: 1em;
     }
     .section-header3 img {
       height:7em;
-      width: 23em;
+      width: 25em;
     }
     .about-textspecial {
       font-size: 20px;
