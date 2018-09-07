@@ -577,7 +577,7 @@ minify CSS at the end to better performance
     text-align: left;
   }
   .about-box .about-img img {
-    height: 12em;
+    height: 14em;
   }
   /* .about-textspecial{
     margin-top: 2.5em;
@@ -1285,7 +1285,7 @@ minify CSS at the end to better performance
       padding-left: 0.05em;
     }
     .about-box .about-img img {
-      height: 12.2em;
+      height: 15.5em;
       /* width: 100%; */
     }
     .home-deskimg{
