@@ -162,9 +162,6 @@ minify CSS at the end to better performance
   }
 
   .overlay {
-    background: #888DC0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.7; */
     position: absolute;
     width: 100%;
@@ -176,9 +173,6 @@ minify CSS at the end to better performance
   }
 
   .overlay-subpage {
-    background: #888DC0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* opacity: 0.7; */
     position: absolute;
     width: 100%;
@@ -378,7 +372,9 @@ minify CSS at the end to better performance
   @media(min-width:768px) {
     .custom-navbar {
       border-bottom: 0;
-      background: 0 0; 
+      background: #888DC0;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, rgba(119, 112, 179, 0.7), rgba(161, 214, 214, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .custom-navbar.top-nav-collapse {
